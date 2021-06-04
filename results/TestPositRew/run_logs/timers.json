@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1622212596",
+        "python_version": "3.7.9 (tags/v3.7.9:13c94747c7, Aug 17 2020, 16:30:00) [MSC v.1900 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\ricar\\Desktop\\Unity Projects\\Ml Agents ex\\venv\\Scripts\\mlagents-learn --run-id=TestPositRew",
+        "mlagents_version": "0.26.0",
+        "mlagents_envs_version": "0.26.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.1+cu110",
+        "numpy_version": "1.20.2",
+        "end_time_seconds": "1622212656"
+    },
+    "total": 60.826434400000004,
+    "count": 1,
+    "self": 0.002909100000010767,
+    "children": {
+        "run_training.setup": {
+            "total": 0.12007489999999998,
+            "count": 1,
+            "self": 0.12007489999999998
+        },
+        "TrainerController.start_learning": {
+            "total": 60.703450399999994,
+            "count": 1,
+            "self": 9.299999999257125e-05,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 60.7033428,
+                    "count": 1,
+                    "self": 60.7033428
+                },
+                "TrainerController._save_models": {
+                    "total": 1.4600000000086766e-05,
+                    "count": 1,
+                    "self": 1.4600000000086766e-05
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "Dodge": {
+        "checkpoints": [
+            {
+                "steps": 499948,
+                "file_path": "results\\ppo\\Dodge\\Dodge-499948.onnx",
+                "reward": 1.0,
+                "creation_time": 1622209725.2911894,
+                "auxillary_file_paths": [
+                    "results\\ppo\\Dodge\\Dodge-499948.pt"
+                ]
+            },
+            {
+                "steps": 675932,
+                "file_path": "results\\ppo\\Dodge\\Dodge-675932.onnx",
+                "reward": 0.9739478957915831,
+                "creation_time": 1622209837.626652,
+                "auxillary_file_paths": [
+                    "results\\ppo\\Dodge\\Dodge-675932.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 675932,
+            "file_path": "results\\ppo\\Dodge.onnx",
+            "reward": 0.9739478957915831,
+            "creation_time": 1622209837.626652,
+            "auxillary_file_paths": [
+                "results\\ppo\\Dodge\\Dodge-675932.pt"
+            ]
+        }
+    },
+    "DodgeGoal": {
+        "checkpoints": [
+            {
+                "steps": 20512,
+                "file_path": "results\\ppo\\DodgeGoal\\DodgeGoal-20512.onnx",
+                "reward": null,
+                "creation_time": 1622209837.4551105,
+                "auxillary_file_paths": [
+                    "results\\ppo\\DodgeGoal\\DodgeGoal-20512.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 20512,
+            "file_path": "results\\ppo\\DodgeGoal.onnx",
+            "reward": null,
+            "creation_time": 1622209837.4551105,
+            "auxillary_file_paths": [
+                "results\\ppo\\DodgeGoal\\DodgeGoal-20512.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.26.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}
